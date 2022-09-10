@@ -10,10 +10,8 @@ return require('packer').startup(function(use)
     }
 
     -- A better status line.
-    use {
-    'nvim-lualine/lualine.nvim',
-        requires = { 'kyazdani42/nvim-web-devicons', opt = true }
-    }
+    use 'nvim-lualine/lualine.nvim'
+    -- use { 'kyazdani42/nvim-web-devicons', opt = true }
 
     -- IDE.
     -- use 'yggdroot/indentline'
