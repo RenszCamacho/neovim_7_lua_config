@@ -8,11 +8,11 @@ end
 lualine.setup {
     options = {
     component_separators = '|',
-    section_separators = { left = '', right = '' },
+    section_separators = { left = '', right = '' },
   },
   sections = {
     lualine_a = {'fileformat'},
-    lualine_b = { 'windows' },
+    lualine_b = {'windows'},
     lualine_c = {'branch'},
     lualine_x = {
       { 'diagnostics', sources = { "nvim_diagnostic" }, symbols = { error = ' ', warn = ' ', info = ' ',
