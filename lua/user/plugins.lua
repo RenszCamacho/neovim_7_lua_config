@@ -10,8 +10,14 @@ return require('packer').startup(function(use)
     }
 
     -- A better status line.
-    use 'nvim-lualine/lualine.nvim'
+    -- use 'nvim-lualine/lualine.nvim'
     -- use { 'kyazdani42/nvim-web-devicons', opt = true }
+
+    -- A better status line.
+    use {
+    'nvim-lualine/lualine.nvim',
+        requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+    }
 
     -- IDE.
     -- use 'yggdroot/indentline'
@@ -80,5 +86,8 @@ return require('packer').startup(function(use)
 
     -- .NET Development
     use 'OmniSharp/omnisharp-vim'
+
+    -- Undo
+    use 'mbbill/undotree'
 
 end)
