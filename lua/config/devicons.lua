@@ -4,21 +4,55 @@ if not status_ok then
 	return
 end
 
--- devicons.set_icon {
---   javascript = {
---     icon = "",
---     color = "#428850",
---     cterm_color = "65",
---     name = "Javascript"
---   }
--- }
-
 devicons.get_icons()
 devicons.set_icon {
-  js = {
+  ["js"] = {
     icon = "",
     color = "#fff200",
-    cterm_color = "65",
-    name = "Javascript"
+    cterm_color = "185",
+    name = "Js",
+  },
+  ["ts"] = {
+    icon = "",
+    color = "#519aba",
+    cterm_color = "67",
+    name = "Ts",
+  },
+  ["cs"] = {
+    -- icon = "",
+    icon = "",
+    color = "#953DAC",
+    cterm_color = "58",
+    name = "Cs",
+  },
+  ["webpack.common.js"] = {
+    icon = "ﰩ",
+    color = "#519aba",
+    cterm_color = "67",
+    name = "Webpack",
+  },
+  ["webpack.prod.js"] = {
+    icon = "ﰩ",
+    color = "#519aba",
+    cterm_color = "67",
+    name = "Webpack",
+  },
+  ["webpack.dev.js"] = {
+    icon = "ﰩ",
+    color = "#519aba",
+    cterm_color = "67",
+    name = "Webpack",
+  },
+  ["webpack.js"] = {
+    icon = "ﰩ",
+    color = "#519aba",
+    cterm_color = "67",
+    name = "Webpack",
+  },
+  ["gulpfile.js"] = {
+    icon = "",
+    color = "#cc3e44",
+    cterm_color = "167",
+    name = "Gulpfile",
   },
 }
