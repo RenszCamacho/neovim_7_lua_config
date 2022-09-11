@@ -10,24 +10,20 @@ return require('packer').startup(function(use)
     }
 
     -- A better status line.
-    -- use 'nvim-lualine/lualine.nvim'
-    -- use { 'kyazdani42/nvim-web-devicons', opt = true }
-
-    -- A better status line.
     use {
     'nvim-lualine/lualine.nvim',
-        requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+        requires = { 'kyazdani42/nvim-web-devicons' }
     }
 
     -- IDE.
     -- use 'yggdroot/indentline'
-    use "lukas-reineke/indent-blankline.nvim"
-    use 'windwp/nvim-autopairs'
-    use 'windwp/nvim-ts-autotag'
-    use 'norcalli/nvim-colorizer.lua'
+     use "lukas-reineke/indent-blankline.nvim"
+     use 'windwp/nvim-autopairs'
+     use 'windwp/nvim-ts-autotag'
+     use 'norcalli/nvim-colorizer.lua'
 
     -- Nvim T-mux.
-    use "alexghergh/nvim-tmux-navigation"
+     use "alexghergh/nvim-tmux-navigation"
 
     -- Nvim Tree and Icons.
     use {
@@ -43,11 +39,10 @@ return require('packer').startup(function(use)
 
     -- Colorschemes.
     use 'RRethy/nvim-base16'
-    use 'andersevenrud/nordic.nvim'
     use 'Mofiqul/vscode.nvim'
 
     -- Commentary.
-    use 'tpope/vim-commentary'
+     use 'tpope/vim-commentary'
 
     -- Fuzzy Finder.
     use {
@@ -79,7 +74,6 @@ return require('packer').startup(function(use)
     -- Git
     use 'lewis6991/gitsigns.nvim'
     use 'tpope/vim-fugitive'
-    -- use 'dinhhuy258/git.nvim' -- For git blame & browse
 
     -- Tab Buffers
     use 'akinsho/nvim-bufferline.lua'
