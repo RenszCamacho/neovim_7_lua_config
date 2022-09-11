@@ -71,6 +71,9 @@ map('n', '<leader>X', '<CMD>Git reset --hard<CR>')
 map('n', '<leader>a', '<CMD>NvimTreeToggle<CR>')
 map('n', '<leader>ac', '<CMD>NvimTreeCollapse<CR>')
 
+-- Undo Tree
+map('n', '<leader>u', '<CMD>UndotreeShow<CR>')
+
 -- LSP Saga Config.
 nmap('n', '<C-h>', '<Cmd>Lspsaga diagnostic_jump_next<CR>')
 nmap('n', 'K', '<Cmd>Lspsaga hover_doc<CR>')
