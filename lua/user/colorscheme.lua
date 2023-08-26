@@ -1,12 +1,9 @@
 -- Colorscheme
 
--- local ok, _ = pcall(vim.cmd, 'colorscheme nordic')
--- local ok, _ = pcall(vim.cmd, 'colorscheme vscode')
-
-
+local ok, _ = pcall(vim.cmd, 'colorscheme tokyonight')
 -- local ok, _ = pcall(vim.cmd, 'colorscheme base16-dracula')
-local ok, _ = pcall(vim.cmd, 'colorscheme base16-material-palenight')
--- local ok, _ = pcall(vim.cmd, 'colorscheme base16-gruvbox-dark-medium')
+-- local ok, _ = pcall(vim.cmd, 'colorscheme base16-material-palenight')
+-- local ok, _ = pcall(vim.cmd, 'colorscheme base16-gruvbox-dark-soft')
 -- local ok, _ = pcall(vim.cmd, 'colorscheme base16-monokai')
 -- local ok, _ = pcall(vim.cmd, 'colorscheme base16-nord')
 -- local ok, _ = pcall(vim.cmd, 'colorscheme base16-oceanicnext')

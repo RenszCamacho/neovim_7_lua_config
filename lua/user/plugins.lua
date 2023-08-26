@@ -9,6 +9,11 @@ return require('packer').startup(function(use)
         'glepnir/lspsaga.nvim' -- LSP UIs.
     }
 
+
+    -- ESLINT
+    use 'jose-elias-alvarez/null-ls.nvim'
+    use 'MunifTanjim/eslint.nvim'
+
     -- A better status line.
     use {
     'nvim-lualine/lualine.nvim',
@@ -16,8 +21,8 @@ return require('packer').startup(function(use)
     }
 
     -- IDE.
-    -- use 'yggdroot/indentline'
-     use "lukas-reineke/indent-blankline.nvim"
+    use 'yggdroot/indentline'
+     -- use "lukas-reineke/indent-blankline.nvim"
      use 'windwp/nvim-autopairs'
      use 'windwp/nvim-ts-autotag'
      use 'norcalli/nvim-colorizer.lua'
@@ -39,7 +44,8 @@ return require('packer').startup(function(use)
 
     -- Colorschemes.
     use 'RRethy/nvim-base16'
-    use 'Mofiqul/vscode.nvim'
+    use 'navarasu/onedark.nvim'
+    use 'folke/tokyonight.nvim'
 
     -- Commentary.
      use 'tpope/vim-commentary'

@@ -59,6 +59,7 @@ nmap('n', 'gD', '<CMD>lua vim.lsp.buf.declaration()<CR>')
 -- nmap('n', 'gr', '<CMD>lua vim.lsp.buf.references()<CR>')
 nmap('n', 'gi', '<CMD>lua vim.lsp.buf.implementation()<CR>')
 -- nmap('n', 'K', '<CMD>lua vim.lsp.buf.hover()<CR>')
+nmap('n', 'f', '<CMD>lua vim.lsp.buf.formatting()<CR>')
 
 -- Vim Fugitive
 map('n', '<leader>gs', '<CMD>Git<CR>')

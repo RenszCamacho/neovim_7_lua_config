@@ -84,8 +84,6 @@ opt.cmdheight = 1
 
 -- Guides
 opt.list = true
--- opt.listchars:append "space:⋅"
--- opt.listchars:append "eol:↴"
 
 -- Map <leader> to space
 g.mapleader = ' '

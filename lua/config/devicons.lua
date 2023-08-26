@@ -55,4 +55,11 @@ devicons.set_icon {
     cterm_color = "167",
     name = "Gulpfile",
   },
+
+  ["Dockerfile"] = {
+    icon = "",
+    color = "#2496ED",
+    cterm_color = "59",
+    name = "Dockerfile",
+  },
 }

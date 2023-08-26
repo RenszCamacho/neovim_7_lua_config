@@ -11,7 +11,7 @@ local fb_actions = require "telescope".extensions.file_browser.actions
 
 telescope.setup {
   defaults = {
-    file_ignore_patterns = { "node_modules" },
+    file_ignore_patterns = { "node_modules", "rg --hidden --ignore .git -l -g" },
     prompt_prefix = " ",
     selection_caret = "  ",
     path_display = { "smart" },
