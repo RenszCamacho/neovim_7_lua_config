@@ -2,18 +2,18 @@
 
 local status_ok, lualine = pcall(require, "lualine")
 if not status_ok then
-	return
+  return
 end
 
 lualine.setup {
-    options = {
+  options = {
     component_separators = '|',
     section_separators = { left = '', right = '' },
   },
   sections = {
-    lualine_a = {'fileformat'},
-    lualine_b = {'windows'},
-    lualine_c = {'branch'},
+    lualine_a = { 'fileformat' },
+    lualine_b = { 'windows' },
+    lualine_c = { 'branch' },
     lualine_x = {
       { 'diagnostics', sources = { "nvim_diagnostic" }, symbols = { error = ' ', warn = ' ', info = ' ',
         hint = ' ' } },
@@ -38,7 +38,7 @@ lualine.setup {
     lualine_z = {}
   },
   tabline = {},
-  extensions = {'fugitive'},
+  extensions = { 'fugitive' },
 }
 
 -- lualine.setup {
